@@ -2873,7 +2873,7 @@
 		letter-spacing: 0.25em;
 		line-height: 2.5;
 		margin-top: -1em;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 	}
 
 /* Table */
@@ -3442,3 +3442,22 @@
 			}
 
 		}
+
+
+		.inline-contact {
+			display: flex;
+			text-align: center;
+		}
+
+		.inline-text{
+			position: absolute;
+			margin-top: .05em;
+			text-align: center;
+			margin-left: 3em;
+		}
+
+
+.icons {
+	font-size: 14px;
+
+}
