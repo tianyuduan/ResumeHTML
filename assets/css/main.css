@@ -1649,7 +1649,7 @@
 		}
 
 		.author img {
-			border-radius: 100%;
+			/* border-radius: 100%; */
 			display: block;
 			width: 4em;
 		}
@@ -3459,5 +3459,43 @@
 
 .icons {
 	font-size: 14px;
+}
 
+ .author{
+	 justify-content: flex-start;
+	 /* border: 2px solid red; */
+}
+
+.flex-post {
+	display: flex;
+
+}
+
+.flex-icons {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: -1em;
+	/* justify-content: space-between; */
+
+}
+
+.icons-project {
+	/* border: 2px solid red; */
+	justify-content: center;
+  flex-direction: column;
+	margin-left: 2em;
+	width: 120px;
+}
+.technologies {
+	font-size: 0.8em;
+	opacity: .8;
+}
+
+.post-description {
+	border: 2px solid red;
+	width: 700px;
+}
+
+.flex-project {
+	width: 180px;
 }
