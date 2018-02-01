@@ -3495,8 +3495,9 @@
 .post-description {
 	/* border: 2px solid red; */
 	width: 700px;
+	margin-left: 2em;
 }
 
 .flex-project {
-	width: 180px;
+	width: 160px;
 }
