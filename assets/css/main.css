@@ -1490,13 +1490,13 @@
 			transition: color 0.2s ease;
 		}
 
-		a:hover {
+		li:hover {
 			border-bottom-color: transparent;
-			color: #2ebaae !important;
+			color: grey!important;
 		}
 
-			a:hover:before {
-				color: #2ebaae !important;
+			li:hover:before {
+				color: #2grey !important;
 			}
 
 	strong, b {
@@ -3478,7 +3478,7 @@
 		.inline-text{
 			position: absolute;
 			/* margin-top: .05em; */
-			text-align: center;
+			/* text-align: center; */
 			margin-left: 3em;
 			/* font-size: 11px; */
 		}
@@ -3528,9 +3528,6 @@
 .flex-project {
 	width: 160px;
 }
-.skills{
-	/* text-align: center; */
-}
 
 .headshot{
 	justify-content: center;
@@ -3547,14 +3544,12 @@
 	background-color: #2ebaae;
 	color: white;
 	/* height: 90px; */
-	/* text-align: center; */
-	border: 2px solid red;
-	/* padding-right: 0.1em !important; */
-	padding: 0em 3em 0em 1.75em !important;
-	/* top, right, bottom, left */
-    /* padding: 3.75em 3em 3.3em 3em; */
+	text-align: center;
 }
 
+.skills {
+	text-align: center;
+}
 .tabs a {
 	height: 90px;
 	line-height: 90px;
@@ -3570,10 +3565,49 @@
 	/* border: 2px solid red; */
 	color: #646464 !important;
 	font-size: 8pt !important;
+	/* padding-left: 2em; */
+	width: 300px;
 	/* line-height: 1.75 !important; */
+	font-weight: 400px !important;
 	font-family: "Raleway", Helvetica, sans-serif !important;
 }
 
+.post p{
+	/* border: 2px solid red; */
+	color: #646464 !important;
+	font-size: 10.75pt !important;
+	font-weight: 400px !important;
+	font-family: "Raleway", Helvetica, sans-serif !important;
+	/* font-size: 8pt !important; */
+	/* padding-left: 2em; */
+	/* width: 300px; */
+	line-height: 1.1 !important;
+}
+
+.blurb p {
+	/* border: 2px solid red; */
+	color: #646464 !important;
+	font-size: 12pt !important;
+	font-weight: 400px !important;
+	font-family: "Raleway", Helvetica, sans-serif !important;
+}
+
+a.button:hover {
+		/* border: 2px solid red; */
+		background-color: #2ebaae;
+		color: white !important;
+}
+
+.skills p {
+	/* border: 2px solid red; */
+	font-size: 11px !important;
+}
+
+time {
+	margin-top: -1em !important;
+	margin-bottom: 1em !important;
+	/* border: 2px solid red; */
+}
 
 
 /* p {
