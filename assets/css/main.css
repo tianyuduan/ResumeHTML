@@ -3513,6 +3513,11 @@
 	margin-left: 2em;
 	width: 120px;
 }
+
+.icons-project :hover {
+		color: #2ebaae;
+}
+
 .technologies {
 	font-size: 0.8em;
 	opacity: .8;
