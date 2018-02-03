@@ -1,11 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
-/*
-	Future Imperfect by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 /* Reset */
 
@@ -2886,7 +2882,7 @@
 		font-weight: 400;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
-		margin-top: -1em;
+		/* margin-top: -1em; */
 		/* text-transform: uppercase; */
 	}
 
@@ -3233,9 +3229,8 @@
 	}
 
 		#sidebar > * {
-			border-top: solid 1px rgba(160, 160, 160, 0.3);
-			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
+			/* margin: 3em 0 0 0; */
+			padding: 1.5em 0 0 0;
 		}
 
 		#sidebar > :first-child {
@@ -3309,6 +3304,7 @@
 	}
 
 	#intro header p {
+		margin-top: -2em;
 		font-size: 0.8em;
 	}
 
@@ -3481,10 +3477,10 @@
 
 		.inline-text{
 			position: absolute;
-			margin-top: .05em;
+			/* margin-top: .05em; */
 			text-align: center;
 			margin-left: 3em;
-			font-size: 11px;
+			/* font-size: 11px; */
 		}
 
 
@@ -3547,21 +3543,47 @@
 }
 
 .tabs{
-	font-size: 18px;
+	font-size: 16px;
 	background-color: #2ebaae;
 	color: white;
 	/* height: 90px; */
-	padding: 1.25em 4.25em 0.1em 1.25em !important;
 	/* text-align: center; */
-
-
+	border: 2px solid red;
+	/* padding-right: 0.1em !important; */
+	padding: 0em 3em 0em 1.75em !important;
+	/* top, right, bottom, left */
+    /* padding: 3.75em 3em 3.3em 3em; */
 }
 
 .tabs a {
 	height: 90px;
-	 line-height: 90px;
-
+	line-height: 90px;
 }
+
+
+ .mini-post > p {
+	/* border: 2px solid red !important; */
+	/* text-decoration: underline !important; */
+}
+
+.mini-post p{
+	/* border: 2px solid red; */
+	color: #646464 !important;
+	font-size: 8pt !important;
+	/* line-height: 1.75 !important; */
+	font-family: "Raleway", Helvetica, sans-serif !important;
+}
+
+
+
+/* p {
+	border: 2px solid red !important;
+	color: #646464 !important;
+	font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+	font-size: 14pt !important;
+	font-weight: 400 !important;
+	line-height: 1.75 !important;
+} */
 
 .aboutme{
 	font-size: 16px !important;
@@ -3574,4 +3596,20 @@
 
 .color2 {
 	color: white;
+}
+
+.hi {
+	/* border: 2px solid red !important; */
+	margin-top: -2em !important;
+}
+
+.up {
+	padding-top: 0 !important;
+	margin-top: 0 !important;
+}
+
+.line {
+	/* border-bottom: solid 1px rgba(160, 160, 160, 0.3); */
+	text-decoration: underline ;
+	text-decoration-style: wavy 1px;
 }
